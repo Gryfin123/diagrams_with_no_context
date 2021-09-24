@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T08:29:10.492Z" agent="5.0 (Windows)" etag="u7eiDvDAHMQcA8SnSVnN" version="15.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T08:32:56.620Z" agent="5.0 (Windows)" etag="1SbIl6fPtDEU4H33KJt7" version="15.3.1" type="github">
   <diagram id="bgD3g8mPxDuvfnoM3ga3" name="Page-1">
     <mxGraphModel dx="1865" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
             <mxRectangle x="640" y="360" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pKxWzVyxjDYX50WEJ_4-10" value="+id: int&#xa;+name: string&#xa;+description: string&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="_pKxWzVyxjDYX50WEJ_4-9" vertex="1">
+        <mxCell id="_pKxWzVyxjDYX50WEJ_4-10" value="+id: int&#xa;+name: string&#xa;+description: string&#xa;+max_level: int&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="_pKxWzVyxjDYX50WEJ_4-9" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_pKxWzVyxjDYX50WEJ_4-12" value="tblResourcesCollected" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
@@ -176,6 +176,12 @@
             <mxPoint x="890" y="530" as="sourcePoint" />
             <mxPoint x="990" y="430" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_jzSCNfOKpr16pqX54c-1" value="cost_increase is a value of how much the cost should increase (0.13). It should increase exponentially." style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="360" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_jzSCNfOKpr16pqX54c-2" value="for max_level equal &#39;-1&#39; max level is unlimited." style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="310" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
