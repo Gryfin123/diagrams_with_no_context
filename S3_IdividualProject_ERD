@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T08:28:28.237Z" agent="5.0 (Windows)" etag="z_Jdo1xCJKchmF1EErjD" version="15.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T08:29:10.492Z" agent="5.0 (Windows)" etag="u7eiDvDAHMQcA8SnSVnN" version="15.3.1" type="github">
   <diagram id="bgD3g8mPxDuvfnoM3ga3" name="Page-1">
     <mxGraphModel dx="1865" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,8 +48,8 @@
         <mxCell id="_pKxWzVyxjDYX50WEJ_4-16" value="+player_id: int&#xa;+building_id: int&#xa;+building_level: int&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="_pKxWzVyxjDYX50WEJ_4-15" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_pKxWzVyxjDYX50WEJ_4-18" value="Email has to be unique" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="280" width="100" height="40" as="geometry" />
+        <mxCell id="_pKxWzVyxjDYX50WEJ_4-18" value="Email and username has to be unique" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="280" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_pKxWzVyxjDYX50WEJ_4-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="_pKxWzVyxjDYX50WEJ_4-2" target="_pKxWzVyxjDYX50WEJ_4-13" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
