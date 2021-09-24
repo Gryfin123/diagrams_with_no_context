@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T11:15:52.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.3.1" etag="fztoPVMMaTUvWr8pEc0T" type="github"><diagram id="0ISwzXjFNcdZjciZv7q1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-24T11:48:31.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="SF7-LGAk7L9CvlGj3okQ" version="15.3.1" type="github">
+  <diagram id="0ISwzXjFNcdZjciZv7q1" name="Page-1">
+    <mxGraphModel dx="981" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-25" value="&lt;span style=&quot;font-weight: 700&quot;&gt;C2 - System Context Diagram for Online Clicker System&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;verticalAlign=bottom;align=left;" vertex="1" parent="1">
+          <mxGeometry x="630" y="20" width="630" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-7" value="&lt;span style=&quot;font-weight: 700&quot;&gt;C1 - System Context Diagram for Online Clicker Project&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;verticalAlign=bottom;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="20" width="440" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-5" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;Views and manages own&lt;br&gt;account and &lt;br&gt;plays the game&lt;/b&gt;&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sYi6YhOPWc63ynp0zuxQ-1" target="sYi6YhOPWc63ynp0zuxQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-1" value="&lt;b&gt;Player&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;[Person]&lt;br&gt;&lt;/font&gt;Player is person that owns an account and logs in to play the game" style="shape=actor;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-4" value="&lt;font&gt;&lt;b&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Online Clicker System&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;[Software System]&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Allows customer to manage his account and play the game&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sYi6YhOPWc63ynp0zuxQ-8" target="sYi6YhOPWc63ynp0zuxQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-23" value="&lt;b&gt;Views own account and&lt;br&gt;plays the game&lt;br&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="sYi6YhOPWc63ynp0zuxQ-19">
+          <mxGeometry x="-0.226" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-8" value="&lt;b&gt;Player&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;[Person]&lt;br&gt;&lt;/font&gt;Player is person that owns an account and logs in to play the game" style="shape=actor;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="761" y="40" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-16" value="&lt;b&gt;Makes API calls to&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;[JSON/HTTPS]&lt;/font&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="sYi6YhOPWc63ynp0zuxQ-9" target="sYi6YhOPWc63ynp0zuxQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-9" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Web application&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="921" y="290" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="sYi6YhOPWc63ynp0zuxQ-10" target="sYi6YhOPWc63ynp0zuxQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-22" value="&lt;b&gt;Reads and&lt;/b&gt;&lt;br&gt;&lt;b&gt;writes to&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;[MySql]&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="sYi6YhOPWc63ynp0zuxQ-21">
+          <mxGeometry x="-0.25" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-10" value="&lt;span style=&quot;font-size: 12px&quot;&gt;API Application&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="921" y="520" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-11" value="&lt;b&gt;Database&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;[Container: MySQL Database]&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Stores user profile information and game progress&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;fillColor=none;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="651" y="510" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sYi6YhOPWc63ynp0zuxQ-12" target="sYi6YhOPWc63ynp0zuxQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-14" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;Manages user &lt;br&gt;accounts&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="sYi6YhOPWc63ynp0zuxQ-13">
+          <mxGeometry x="-0.2257" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-12" value="&lt;b&gt;Admin&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;[Person]&lt;br&gt;&lt;/font&gt;Admin is a person that manages users" style="shape=actor;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sYi6YhOPWc63ynp0zuxQ-15" target="sYi6YhOPWc63ynp0zuxQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-24" value="&lt;b&gt;Views and manages accounts&lt;br&gt;of users&lt;br&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="sYi6YhOPWc63ynp0zuxQ-20">
+          <mxGeometry x="-0.346" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYi6YhOPWc63ynp0zuxQ-15" value="&lt;b&gt;Admin&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;[Person]&lt;br&gt;&lt;/font&gt;Admin is a person that manages users" style="shape=actor;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="40" width="160" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
