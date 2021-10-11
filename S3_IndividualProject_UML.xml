@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-11T20:55:24.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="EZ-vZJcQdp04QXE7i7T0" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-11T21:03:58.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="qY4GFD2cIVJnGrXlFnA_" version="15.3.7" type="github">
   <diagram id="2tsPmJ1oExc7LC2iDxh8" name="Page-1">
-    <mxGraphModel dx="1808" dy="2886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2858" dy="3472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,8 +201,8 @@
             <mxPoint x="450" y="-990" as="sourcePoint" />
             <mxPoint x="520" y="-910" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="460" y="-1135" />
-              <mxPoint x="460" y="-945" />
+              <mxPoint x="450" y="-1135" />
+              <mxPoint x="450" y="-945" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -445,6 +445,26 @@
         </mxCell>
         <mxCell id="LTjJKaGEkpaPgQ6zeEcs-145" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;IAssetsSource&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getResource(id: int): Resource&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getAllResources(): Resource[]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getBuilding(id: int): Building&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getAllBuildings(): Building[]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getUpgrade(id: int): Upgrade&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getAllUpgrades(): Uprgade[]&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;spacingLeft=0;spacingRight=0;spacing=2;" vertex="1" parent="1">
           <mxGeometry x="30" y="-1359" width="360" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="LTjJKaGEkpaPgQ6zeEcs-148" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.1;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=0;entryPerimeter=0;" edge="1" parent="1" source="LTjJKaGEkpaPgQ6zeEcs-145" target="LTjJKaGEkpaPgQ6zeEcs-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="-1125" as="sourcePoint" />
+            <mxPoint x="500.0000000000002" y="-935" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="-1284" />
+              <mxPoint x="460" y="-960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LTjJKaGEkpaPgQ6zeEcs-149" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.159;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=0;entryPerimeter=0;" edge="1" parent="1" source="LTjJKaGEkpaPgQ6zeEcs-145" target="LTjJKaGEkpaPgQ6zeEcs-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="-1125" as="sourcePoint" />
+            <mxPoint x="-30" y="-975" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="-1285" />
+              <mxPoint x="-20" y="-998" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
