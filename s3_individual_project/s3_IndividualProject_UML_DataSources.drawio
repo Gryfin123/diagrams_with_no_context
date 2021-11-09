@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T21:41:02.870Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="GkvEYz2-atrS831cIN-l" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T21:43:44.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="SBZuTBLrD2sh8-3-sdyq" version="15.6.8" type="github">
   <diagram id="SLMzsR0E3EUHvdBKZ5yB" name="Page-1">
     <mxGraphModel dx="3327" dy="3272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,7 +155,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NOSZl9h-h4cG2daDXrsb-101" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AssetsService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ AssetsService(): cstr&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;spacingLeft=0;spacingRight=0;spacing=2;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="-1351" width="260" height="111" as="geometry" />
+          <mxGeometry x="620" y="-1359" width="260" height="111" as="geometry" />
         </mxCell>
         <mxCell id="NOSZl9h-h4cG2daDXrsb-103" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="NOSZl9h-h4cG2daDXrsb-102" target="NOSZl9h-h4cG2daDXrsb-33">
           <mxGeometry relative="1" as="geometry">
@@ -176,8 +176,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="NOSZl9h-h4cG2daDXrsb-147" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="NOSZl9h-h4cG2daDXrsb-106" target="NOSZl9h-h4cG2daDXrsb-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NOSZl9h-h4cG2daDXrsb-148" value="&amp;nbsp;- token_repository" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NOSZl9h-h4cG2daDXrsb-147">
+          <mxGeometry x="0.519" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NOSZl9h-h4cG2daDXrsb-105" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;RegistrationService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ RegistrationService(): cstr&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;spacingLeft=0;spacingRight=0;spacing=2;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="-1191" width="200" height="90" as="geometry" />
+          <mxGeometry x="690" y="-1202" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NOSZl9h-h4cG2daDXrsb-109" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="NOSZl9h-h4cG2daDXrsb-106" target="NOSZl9h-h4cG2daDXrsb-97">
           <mxGeometry relative="1" as="geometry" />
@@ -191,7 +199,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NOSZl9h-h4cG2daDXrsb-106" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;LoginService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ LoginService(): cstr&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;spacingLeft=0;spacingRight=0;spacing=2;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="-1071" width="200" height="90" as="geometry" />
+          <mxGeometry x="590" y="-1071" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NOSZl9h-h4cG2daDXrsb-111" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="NOSZl9h-h4cG2daDXrsb-107" target="NOSZl9h-h4cG2daDXrsb-98">
           <mxGeometry relative="1" as="geometry" />
@@ -299,6 +307,9 @@
         </mxCell>
         <mxCell id="NOSZl9h-h4cG2daDXrsb-145" value="Arrays in GameStateDTO:&lt;br&gt;resources - index-&amp;gt;id, value-&amp;gt;amount&lt;br&gt;buildings - index-&amp;gt;id, value-&amp;gt;level&lt;br&gt;upgrade - value-&amp;gt;id" style="html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="2130" y="-540" width="215" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NOSZl9h-h4cG2daDXrsb-146" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TokenRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ AssetsService(): cstr&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;spacingLeft=0;spacingRight=0;spacing=2;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-1540" width="260" height="111" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
