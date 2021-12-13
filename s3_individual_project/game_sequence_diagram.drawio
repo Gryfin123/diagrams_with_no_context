@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T22:06:01.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="0vIUkdVJYdBBP15k0XWL" version="15.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T22:08:48.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="_qZ3eXyYQxMukD9b6a-V" version="15.7.1" type="github">
   <diagram id="ji4ZQ34hhWkev3HAbMrI" name="Page-1">
     <mxGraphModel dx="2031" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7uVU8pVOYNzjBIKyynAL-6" value="Frontend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="100" height="1120" as="geometry" />
+          <mxGeometry x="520" y="40" width="80" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="7uVU8pVOYNzjBIKyynAL-7" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="40" height="1120" as="geometry" />
@@ -14,10 +14,10 @@
           <mxGeometry x="280" y="40" width="40" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="7uVU8pVOYNzjBIKyynAL-9" value="Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="820" y="40" width="100" height="1120" as="geometry" />
+          <mxGeometry x="800" y="40" width="80" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="7uVU8pVOYNzjBIKyynAL-10" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="40" width="100" height="1120" as="geometry" />
+          <mxGeometry x="1120" y="40" width="80" height="1120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
