@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T09:56:42.768Z" agent="5.0 (Windows)" etag="GK3cGQgYeDEmFwlHk1cL" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T09:58:18.057Z" agent="5.0 (Windows)" etag="z3R_CZJlZfyQPSwFsKz6" version="20.3.0" type="github">
   <diagram id="bGw_TPgT7MvLrZrnnkGr" name="Page-1">
     <mxGraphModel dx="1138" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="wkWbv2mzszypH6_NSDZn-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-1" target="wkWbv2mzszypH6_NSDZn-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wkWbv2mzszypH6_NSDZn-1" value="Start up the game" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+        <mxCell id="wkWbv2mzszypH6_NSDZn-1" value="Start up the game" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="360" y="-60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wkWbv2mzszypH6_NSDZn-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-2" target="wkWbv2mzszypH6_NSDZn-6">
@@ -57,6 +57,9 @@
         </mxCell>
         <mxCell id="wkWbv2mzszypH6_NSDZn-10" value="Change current sprite pixel by pixel" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
           <mxGeometry x="240" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;fontSize=12;endArrow=classic;endFill=1;startSize=6;endSize=6;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-11" target="wkWbv2mzszypH6_NSDZn-67">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wkWbv2mzszypH6_NSDZn-11" value="Go back to menu" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
           <mxGeometry x="360" y="1560" width="120" height="60" as="geometry" />
@@ -235,6 +238,9 @@
         </mxCell>
         <mxCell id="wkWbv2mzszypH6_NSDZn-30" value="Is there anything player wants to change?" style="rhombus;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
           <mxGeometry x="160" y="940" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-67" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="398" y="1680" width="42" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
