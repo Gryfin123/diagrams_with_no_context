@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T11:54:17.806Z" agent="5.0 (Windows)" etag="pOFhE22lQTSJH3bzmaX0" version="20.3.0" type="github"><diagram id="d66kL4MdZx7_-ow3y834" name="Page-1">dZE9D4MgEIZ/DbtCou1sbbs4OXQmchUS9AzSaPvri0Fqie1Cjufe+yas6OaL4YOsUIAmNBEzYSdC6YFR9y7g6UGWJx60RgmP0g3U6gUrDLKHEjBGQouorRpi2GDfQ2Mjxo3BKZbdUcdVB97CDtQN13t6U8LKdSyab/wKqpWhcpodvafjQbxOMkoucPpCrCSsMIjWW91cgF52F/bi485/vJ/GDPT2R4AzttzuEx2IlW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-09T16:59:57.117Z" agent="5.0 (Windows)" etag="CpIwasj2fMhPbhGPFls_" version="20.3.0" type="github">
+  <diagram id="d66kL4MdZx7_-ow3y834" name="Page-1">
+    <mxGraphModel dx="723" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-1" value="Level Generation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LTV1pkqdl1TVWO-Cy7wC-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LTV1pkqdl1TVWO-Cy7wC-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-4" value="+ BuildLevel(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LTV1pkqdl1TVWO-Cy7wC-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-5" value="LevelData" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="230" height="468" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-6" value="- _layout: image" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LTV1pkqdl1TVWO-Cy7wC-5">
+          <mxGeometry y="26" width="230" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LTV1pkqdl1TVWO-Cy7wC-5">
+          <mxGeometry y="230" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-8" value="+ GetLevelHash(): string&#xa;+ GetTotalKeys(): int&#xa;+ GetTotalEnemies(): int&#xa;&#xa;+ GetRoomByHash(string): RoomData &#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LTV1pkqdl1TVWO-Cy7wC-5">
+          <mxGeometry y="238" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-9" value="&lt;div&gt;&amp;nbsp;- _levelData&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LTV1pkqdl1TVWO-Cy7wC-2" target="LTV1pkqdl1TVWO-Cy7wC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-10" value="RoomData" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="140" width="220" height="468" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-11" value="- _layout: image" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LTV1pkqdl1TVWO-Cy7wC-10">
+          <mxGeometry y="26" width="220" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LTV1pkqdl1TVWO-Cy7wC-10">
+          <mxGeometry y="230" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-13" value="+ GetRoomHash(): string&#xa;+ GetUpdateImage(): image&#xa;&#xa;+ GetMonsterPositions(): Vector2[]&#xa;+ GetMonsterAmount(): int&#xa;+ GetKeyPositions(): Vector2[]&#xa;+ GetSpawnPosition(): Vector2&#xa;+ GetExitPosition(): Vector2&#xa;+ &#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LTV1pkqdl1TVWO-Cy7wC-10">
+          <mxGeometry y="238" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-14" value="&lt;div&gt;Room hash is &lt;br&gt;&lt;/div&gt;&lt;div&gt;generated from &lt;br&gt;&lt;/div&gt;&lt;div&gt;the image used &lt;br&gt;&lt;/div&gt;&lt;div&gt;as the layout. &lt;/div&gt;" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="360" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-15" value="&lt;div&gt;Level hash is &lt;br&gt;&lt;/div&gt;&lt;div&gt;generated from &lt;br&gt;&lt;/div&gt;&lt;div&gt;the image used &lt;br&gt;&lt;/div&gt;&lt;div&gt;as the layout. &lt;/div&gt;" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="720" y="370" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LTV1pkqdl1TVWO-Cy7wC-16" value="&lt;div&gt;- _rooms[] &lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LTV1pkqdl1TVWO-Cy7wC-6" target="LTV1pkqdl1TVWO-Cy7wC-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="268" />
+              <mxPoint x="810" y="268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
