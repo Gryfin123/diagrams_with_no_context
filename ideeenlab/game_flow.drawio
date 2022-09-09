@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T09:51:37.833Z" agent="5.0 (Windows)" etag="J9MCl_z39WNIYNuM3sNE" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T09:55:19.049Z" agent="5.0 (Windows)" etag="aQyq8XvwfBfivEUc32Nr" version="20.3.0" type="github">
   <diagram id="bGw_TPgT7MvLrZrnnkGr" name="Page-1">
-    <mxGraphModel dx="1237" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="2469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wkWbv2mzszypH6_NSDZn-8" value="Click Save" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1460" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wkWbv2mzszypH6_NSDZn-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-9" target="wkWbv2mzszypH6_NSDZn-3">
           <mxGeometry relative="1" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry x="240" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wkWbv2mzszypH6_NSDZn-11" value="Go back to menu" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1560" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wkWbv2mzszypH6_NSDZn-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-13" target="wkWbv2mzszypH6_NSDZn-29">
           <mxGeometry relative="1" as="geometry">
@@ -125,6 +125,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wkWbv2mzszypH6_NSDZn-36" value="&lt;div&gt;Change level&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-18" target="wkWbv2mzszypH6_NSDZn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-66" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=classic;startSize=14;endSize=14;endFill=1;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-18" target="wkWbv2mzszypH6_NSDZn-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wkWbv2mzszypH6_NSDZn-18" value="What player wants to change?" style="rhombus;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
@@ -195,7 +198,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="700" y="1400" />
-              <mxPoint x="460" y="1400" />
+              <mxPoint x="510" y="1400" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -226,7 +229,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="220" y="1400" />
-              <mxPoint x="460" y="1400" />
+              <mxPoint x="510" y="1400" />
             </Array>
           </mxGeometry>
         </mxCell>
