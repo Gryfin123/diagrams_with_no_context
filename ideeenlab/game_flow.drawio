@@ -1,1 +1,239 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T09:06:19.237Z" agent="5.0 (Windows)" version="20.3.0" etag="2DllsHWwtXGvpqf5hg8v" type="github"><diagram id="bGw_TPgT7MvLrZrnnkGr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-09T09:51:37.833Z" agent="5.0 (Windows)" etag="J9MCl_z39WNIYNuM3sNE" version="20.3.0" type="github">
+  <diagram id="bGw_TPgT7MvLrZrnnkGr" name="Page-1">
+    <mxGraphModel dx="1237" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wkWbv2mzszypH6_NSDZn-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-1" target="wkWbv2mzszypH6_NSDZn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-1" value="Start up the game" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-2" target="wkWbv2mzszypH6_NSDZn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-2" value="Navigate to editor" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-3" target="wkWbv2mzszypH6_NSDZn-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-3" value="Scan paper template" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-5" target="wkWbv2mzszypH6_NSDZn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-5" value="Select paint tool option" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="240" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-6" target="wkWbv2mzszypH6_NSDZn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-6" value="Check the default sprites" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-7" target="wkWbv2mzszypH6_NSDZn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-7" value="&lt;div&gt;Select sprite that player want to adjust&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-8" target="wkWbv2mzszypH6_NSDZn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-8" value="Click Save" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-9" target="wkWbv2mzszypH6_NSDZn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-9" value="Select scan option" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-10" target="wkWbv2mzszypH6_NSDZn-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-10" value="Change current sprite pixel by pixel" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="240" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-11" value="Go back to menu" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-13" target="wkWbv2mzszypH6_NSDZn-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="1160" />
+              <mxPoint x="700" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-13" value="Scan paper template" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-14" target="wkWbv2mzszypH6_NSDZn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-14" value="Select paint tool option" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="640" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-50" value="Change dungeon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-15" target="wkWbv2mzszypH6_NSDZn-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="540" />
+              <mxPoint x="540" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-51" value="Change room" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-15" target="wkWbv2mzszypH6_NSDZn-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="540" />
+              <mxPoint x="700" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-52" value="Change assigned rooms" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-15" target="wkWbv2mzszypH6_NSDZn-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-15" value="&lt;div&gt;Select part of level player wants to adjust&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-16" target="wkWbv2mzszypH6_NSDZn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-16" value="Select scan option" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-17" target="wkWbv2mzszypH6_NSDZn-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-17" value="Change current sprite pixel by pixel" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-18" target="wkWbv2mzszypH6_NSDZn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-37" value="&lt;div&gt;Change sprites &lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];spacing=4;" vertex="1" connectable="0" parent="wkWbv2mzszypH6_NSDZn-35">
+          <mxGeometry x="0.0117" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-36" value="&lt;div&gt;Change level&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-18" target="wkWbv2mzszypH6_NSDZn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-18" value="What player wants to change?" style="rhombus;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-39" value="&lt;div&gt;Paper &lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-19" target="wkWbv2mzszypH6_NSDZn-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-40" value="In-game" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-19" target="wkWbv2mzszypH6_NSDZn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-19" value="What player wants to use?" style="rhombus;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="160" y="540" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-56" value="Paper" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-20" target="wkWbv2mzszypH6_NSDZn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-57" value="&lt;div&gt;In-game&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-20" target="wkWbv2mzszypH6_NSDZn-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-20" value="What player wants to use?" style="rhombus;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="560" y="800" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-21" target="wkWbv2mzszypH6_NSDZn-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-21" value="Change Dungeon layuot" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-22" target="wkWbv2mzszypH6_NSDZn-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-22" value="&lt;div&gt;Select room layout from the list of stored rooms&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="640" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-23" target="wkWbv2mzszypH6_NSDZn-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-23" value="Assign room layout to room in the dungeon" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="800" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-24" target="wkWbv2mzszypH6_NSDZn-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-24" value="&lt;div&gt;Create or change room layout&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="640" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-25" target="wkWbv2mzszypH6_NSDZn-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-25" value="Select room in the room layout list" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="800" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-26" target="wkWbv2mzszypH6_NSDZn-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="1160" />
+              <mxPoint x="700" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-26" value="Select room in the dungeon layout" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="800" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-48" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-29" target="wkWbv2mzszypH6_NSDZn-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1400" />
+              <mxPoint x="460" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-29" target="wkWbv2mzszypH6_NSDZn-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="1240" />
+              <mxPoint x="960" y="390" />
+              <mxPoint x="650" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-29" value="Is there anything player wants to change?" style="rhombus;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1180" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-45" value="&lt;div&gt;Yes&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-30" target="wkWbv2mzszypH6_NSDZn-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="1000" />
+              <mxPoint x="40" y="400" />
+              <mxPoint x="190" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-46" value="&lt;div&gt;No &lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;spacing=4;" edge="1" parent="1" source="wkWbv2mzszypH6_NSDZn-30" target="wkWbv2mzszypH6_NSDZn-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="1400" />
+              <mxPoint x="460" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkWbv2mzszypH6_NSDZn-30" value="Is there anything player wants to change?" style="rhombus;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="160" y="940" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
