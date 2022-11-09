@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T15:21:14.870Z" agent="5.0 (Windows)" etag="eyYJM--3SiNOjGjr3sOC" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-09T15:23:04.846Z" agent="5.0 (Windows)" etag="mwfqdyP2_CLpDyG8ey6o" version="20.5.3" type="github">
   <diagram id="E9-wej85IpPJejZK325P" name="Page-1">
-    <mxGraphModel dx="3694" dy="2660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2035" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lN7asvE-8VRLSh5YdZQm-139" value="Main Menu" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;width=50;height=50;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="460" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="lN7asvE-8VRLSh5YdZQm-138" value="Editing" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#F8C4E0;strokeColor=#B8559E;strokeWidth=3;width=80;height=30;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="1340" height="540" as="geometry" />
+        </mxCell>
         <mxCell id="lN7asvE-8VRLSh5YdZQm-96" value="Unlocks Assesment" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;width=100;height=40;" vertex="1" parent="1">
           <mxGeometry x="-540" y="1020" width="360" height="510" as="geometry" />
         </mxCell>
@@ -14,7 +20,7 @@
           <mxGeometry x="-140" y="-150" width="620" height="210" as="geometry" />
         </mxCell>
         <mxCell id="lN7asvE-8VRLSh5YdZQm-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="370" y="-190" width="30" height="30" as="geometry" />
+          <mxGeometry x="270" y="-200" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lN7asvE-8VRLSh5YdZQm-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lN7asvE-8VRLSh5YdZQm-2" target="lN7asvE-8VRLSh5YdZQm-22">
           <mxGeometry relative="1" as="geometry" />
@@ -87,6 +93,9 @@
         <mxCell id="lN7asvE-8VRLSh5YdZQm-18" value="Played with default textures?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-300" y="1150" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="lN7asvE-8VRLSh5YdZQm-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lN7asvE-8VRLSh5YdZQm-21" target="lN7asvE-8VRLSh5YdZQm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lN7asvE-8VRLSh5YdZQm-21" value="Return to game selection menu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
@@ -101,6 +110,14 @@
         </mxCell>
         <mxCell id="lN7asvE-8VRLSh5YdZQm-48" value="&lt;div&gt;Play &lt;br&gt;&lt;/div&gt;&lt;div&gt;VRmazing&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lN7asvE-8VRLSh5YdZQm-24" target="lN7asvE-8VRLSh5YdZQm-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lN7asvE-8VRLSh5YdZQm-140" value="Close App" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lN7asvE-8VRLSh5YdZQm-24" target="lN7asvE-8VRLSh5YdZQm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="-160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="lN7asvE-8VRLSh5YdZQm-24" value="What game user wants to select?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="-30" width="80" height="80" as="geometry" />
@@ -453,12 +470,6 @@
         </mxCell>
         <mxCell id="lN7asvE-8VRLSh5YdZQm-134" value="Show all saved gameplay settings." style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1650" y="660" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lN7asvE-8VRLSh5YdZQm-138" value="Editing" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#F8C4E0;strokeColor=#B8559E;strokeWidth=3;width=80;height=30;" vertex="1" parent="1">
-          <mxGeometry x="520" y="540" width="1340" height="540" as="geometry" />
-        </mxCell>
-        <mxCell id="lN7asvE-8VRLSh5YdZQm-139" value="Main Menu" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;width=50;height=50;" vertex="1" parent="1">
-          <mxGeometry x="20" y="80" width="460" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
