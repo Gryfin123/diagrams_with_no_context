@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T15:19:05.942Z" agent="5.0 (Windows)" etag="1VQpW1jQdetw08eiXrfS" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-09T15:21:14.870Z" agent="5.0 (Windows)" etag="eyYJM--3SiNOjGjr3sOC" version="20.5.3" type="github">
   <diagram id="E9-wej85IpPJejZK325P" name="Page-1">
-    <mxGraphModel dx="2087" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3694" dy="2660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -453,6 +453,12 @@
         </mxCell>
         <mxCell id="lN7asvE-8VRLSh5YdZQm-134" value="Show all saved gameplay settings." style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1650" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lN7asvE-8VRLSh5YdZQm-138" value="Editing" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#F8C4E0;strokeColor=#B8559E;strokeWidth=3;width=80;height=30;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="1340" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="lN7asvE-8VRLSh5YdZQm-139" value="Main Menu" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;width=50;height=50;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="460" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
