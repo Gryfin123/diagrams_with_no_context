@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T10:26:19.152Z" agent="5.0 (Windows)" etag="YNEqBADMhYzl8a6foIsf" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T10:31:17.497Z" agent="5.0 (Windows)" etag="tsGja4mcG-Ee_T8eFfAm" version="20.3.2" type="github">
   <diagram id="E9-wej85IpPJejZK325P" name="Page-1">
-    <mxGraphModel dx="2347" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -683,14 +683,14 @@
           <mxGeometry x="-0.8837" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3900" y="840" />
-              <mxPoint x="3900" y="860" />
-              <mxPoint x="3160" y="860" />
+              <mxPoint x="3900" y="870" />
+              <mxPoint x="3160" y="870" />
               <mxPoint x="3160" y="385" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lN7asvE-8VRLSh5YdZQm-228" value="Change Mode" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lN7asvE-8VRLSh5YdZQm-229" target="lN7asvE-8VRLSh5YdZQm-244" edge="1">
+        <mxCell id="lN7asvE-8VRLSh5YdZQm-228" value="Change Mode" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=none;" parent="1" source="lN7asvE-8VRLSh5YdZQm-229" target="lN7asvE-8VRLSh5YdZQm-244" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="4170" y="840" />
@@ -751,14 +751,14 @@
           <mxGeometry x="-0.8733" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="4350" y="840" />
-              <mxPoint x="4350" y="880" />
-              <mxPoint x="3160" y="880" />
+              <mxPoint x="4350" y="890" />
+              <mxPoint x="3160" y="890" />
               <mxPoint x="3160" y="385" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lN7asvE-8VRLSh5YdZQm-238" value="Change Mode" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lN7asvE-8VRLSh5YdZQm-239" target="lN7asvE-8VRLSh5YdZQm-213" edge="1">
+        <mxCell id="lN7asvE-8VRLSh5YdZQm-238" value="Change Mode" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=none;" parent="1" source="lN7asvE-8VRLSh5YdZQm-239" target="lN7asvE-8VRLSh5YdZQm-213" edge="1">
           <mxGeometry x="-0.8212" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="4510" y="840" />
@@ -784,7 +784,7 @@
         <mxCell id="lN7asvE-8VRLSh5YdZQm-241" value="&lt;div&gt;Save &quot;new&quot; gameplay settings.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="4180" y="920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lN7asvE-8VRLSh5YdZQm-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lN7asvE-8VRLSh5YdZQm-243" target="lN7asvE-8VRLSh5YdZQm-244" edge="1">
+        <mxCell id="lN7asvE-8VRLSh5YdZQm-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=gap;" parent="1" source="lN7asvE-8VRLSh5YdZQm-243" target="lN7asvE-8VRLSh5YdZQm-244" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="4350" y="730" as="targetPoint" />
             <Array as="points">
