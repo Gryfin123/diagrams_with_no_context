@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T13:25:37.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="yhHXd4-yutGpj2wDwzVF" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T13:27:53.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ugVMXzqNpBHFDyzw5Ph6" version="24.0.6" type="github">
   <diagram name="Pagina-1" id="2xL5hSOCkPQhhSe2iLA3">
-    <mxGraphModel dx="2261" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,6 +16,9 @@
         <mxCell id="g44KLaVrJFj6UJTE19Py-2" value="open chat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="160" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-3" target="g44KLaVrJFj6UJTE19Py-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-3" value="Load chat using api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="400" width="120" height="60" as="geometry" />
         </mxCell>
@@ -25,20 +28,38 @@
         <mxCell id="g44KLaVrJFj6UJTE19Py-4" value="Establish connection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-11" target="g44KLaVrJFj6UJTE19Py-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-11" value="Await input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="520" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-12" target="g44KLaVrJFj6UJTE19Py-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-12" value="User starts typing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-13" target="g44KLaVrJFj6UJTE19Py-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-13" value="User sends message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-14" value="Show message to chat of other members" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-15" target="g44KLaVrJFj6UJTE19Py-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-15" value="Show other users that user that is typing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-16" target="g44KLaVrJFj6UJTE19Py-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-16" value="Save message in database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
