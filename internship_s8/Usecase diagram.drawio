@@ -1,97 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T13:34:52.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="NydyqJVYvFuAcpMlIxj2" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T13:45:30.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-7OINh7qmETsG_psQ-SU" version="24.0.6" type="github">
   <diagram name="Pagina-1" id="2xL5hSOCkPQhhSe2iLA3">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="g44KLaVrJFj6UJTE19Py-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-1" target="g44KLaVrJFj6UJTE19Py-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-1" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-2" target="g44KLaVrJFj6UJTE19Py-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-400" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-2" value="open chat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="-200" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-3" target="g44KLaVrJFj6UJTE19Py-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-3" value="Load chat using api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-4" target="g44KLaVrJFj6UJTE19Py-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="g44KLaVrJFj6UJTE19Py-3" value="Fetch data drom database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-4" value="Establish connection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-11" target="g44KLaVrJFj6UJTE19Py-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-11" target="g44KLaVrJFj6UJTE19Py-26">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-11" value="Await input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="520" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-12" target="g44KLaVrJFj6UJTE19Py-15">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="647" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-12" value="User starts typing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="640" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-13" target="g44KLaVrJFj6UJTE19Py-16">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="647" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-13" value="User sends message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="880" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-14" target="g44KLaVrJFj6UJTE19Py-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="700" y="1150" />
-              <mxPoint x="700" y="550" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="647" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-14" value="Show message to chat of other members" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-15" target="g44KLaVrJFj6UJTE19Py-13">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="647" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-15" value="Show other users that user that is typing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="760" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-16" target="g44KLaVrJFj6UJTE19Py-14">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="647" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-16" value="Save message in database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1000" width="120" height="60" as="geometry" />
+          <mxGeometry x="647" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-26" target="g44KLaVrJFj6UJTE19Py-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-26" value="Close chat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="447" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-28" value="Terminate Connection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="447" y="820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-30" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="40" width="200" height="86" as="geometry" />
+        <mxCell id="g44KLaVrJFj6UJTE19Py-34" value="Client1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-30" width="40" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-31" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="g44KLaVrJFj6UJTE19Py-30">
-          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        <mxCell id="g44KLaVrJFj6UJTE19Py-35" value="Server" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-30" width="40" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="g44KLaVrJFj6UJTE19Py-30">
-          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        <mxCell id="g44KLaVrJFj6UJTE19Py-38" value="Database" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-30" width="40" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-33" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="g44KLaVrJFj6UJTE19Py-30">
-          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        <mxCell id="g44KLaVrJFj6UJTE19Py-41" value="User1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="-30" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-43" value="Client2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry y="-30" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-46" value="Ask for past Messages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-47" value="Request data from database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-48" value="Send data to client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-49" value="Load into the caht requested messages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
