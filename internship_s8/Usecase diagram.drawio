@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T13:59:14.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="CejNTe1Ae7fOMkcqpaDy" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T14:03:30.288Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="D3aatcJLZf2Q47T7WuHZ" version="24.0.6" type="github">
   <diagram name="Pagina-1" id="2xL5hSOCkPQhhSe2iLA3">
-    <mxGraphModel dx="1889" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2620" dy="2092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="g44KLaVrJFj6UJTE19Py-95" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-70" width="160" height="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-94" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-70" width="160" height="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-93" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-70" width="160" height="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-92" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-70" width="160" height="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-91" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-70" width="160" height="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-101" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-70" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-100" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-70" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-99" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-70" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-98" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-70" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="g44KLaVrJFj6UJTE19Py-97" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-70" width="160" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-63" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-1" target="g44KLaVrJFj6UJTE19Py-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -42,9 +72,6 @@
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-12" value="User starts typing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-200" y="480" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-14" value="Show message to chat of other members" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="647" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g44KLaVrJFj6UJTE19Py-89" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-26" target="g44KLaVrJFj6UJTE19Py-50">
           <mxGeometry relative="1" as="geometry" />
