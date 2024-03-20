@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T14:30:53.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="t6qpDUE6djl6bSPesIzm" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T14:38:40.214Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="FkIS0TDwVBPUaRQ6ngHw" version="24.0.7" type="github">
   <diagram name="Pagina-1" id="_BIcd2fGNGywZXepcDtC">
-    <mxGraphModel dx="1696" dy="1616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fontSize=10;" edge="1" parent="1" source="otVkLo7p5fC6BMHa_1EE-5" target="oJ9yVa5YV7pGG5SNaFQi-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-23" value="-dbConnection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="oJ9yVa5YV7pGG5SNaFQi-9">
+        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-23" value="-data_connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="oJ9yVa5YV7pGG5SNaFQi-9">
           <mxGeometry x="0.11" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -41,16 +41,16 @@
         <mxCell id="otVkLo7p5fC6BMHa_1EE-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=10;" parent="otVkLo7p5fC6BMHa_1EE-5" vertex="1">
           <mxGeometry y="90" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="otVkLo7p5fC6BMHa_1EE-8" value="+OpenConnection(): void&lt;div style=&quot;font-size: 10px;&quot;&gt;+CloseConnection(): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+BatchMessageRequest(int roomId, int amount): PastMessagePayload&lt;/div&gt;+CheckSentMessage(IChatMessage): void&lt;div style=&quot;font-size: 10px;&quot;&gt;+BroadcastWritingStatusNotification(ChatUser): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+PushMessageToDatabase(IChatMessage): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+BroadcastSavedMessage(IChatMessage): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="otVkLo7p5fC6BMHa_1EE-5" vertex="1">
+        <mxCell id="otVkLo7p5fC6BMHa_1EE-8" value="+OpenConnection(): void&lt;div style=&quot;font-size: 10px;&quot;&gt;+CloseConnection(): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+BatchMessageRequest(int roomId, int amount): PastMessagePayload&lt;/span&gt;&lt;br&gt;&lt;/div&gt;+CheckSentMessage(IChatMessage): void&lt;div style=&quot;font-size: 10px;&quot;&gt;+BroadcastWritingStatusNotification(ChatUser): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+PushMessageToDatabase(IChatMessage): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+BroadcastSavedMessage(IChatMessage): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="otVkLo7p5fC6BMHa_1EE-5" vertex="1">
           <mxGeometry y="98" width="300" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-1" value="-messages[]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fontSize=10;" edge="1" parent="1" source="otVkLo7p5fC6BMHa_1EE-9" target="oJ9yVa5YV7pGG5SNaFQi-46">
+        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-1" value="&amp;lt;get&amp;gt; -messages[]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fontSize=10;" edge="1" parent="1" source="otVkLo7p5fC6BMHa_1EE-9" target="oJ9yVa5YV7pGG5SNaFQi-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-2" value="&amp;nbsp;-user[]&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fontSize=10;" edge="1" parent="1" source="otVkLo7p5fC6BMHa_1EE-9" target="otVkLo7p5fC6BMHa_1EE-1">
+        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-2" value="&amp;nbsp;&amp;lt;get&amp;gt; -user[]&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fontSize=10;" edge="1" parent="1" source="otVkLo7p5fC6BMHa_1EE-9" target="otVkLo7p5fC6BMHa_1EE-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-8" value="-chatService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;endFill=0;" edge="1" parent="1" source="otVkLo7p5fC6BMHa_1EE-9" target="otVkLo7p5fC6BMHa_1EE-5">
+        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-8" value="&amp;lt;get&amp;gt; -chatService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;endFill=0;" edge="1" parent="1" source="otVkLo7p5fC6BMHa_1EE-9" target="otVkLo7p5fC6BMHa_1EE-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="otVkLo7p5fC6BMHa_1EE-9" value="Chatroom" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
@@ -149,7 +149,7 @@
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-24" value="ChatroomInitInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-280" y="90" width="160" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-25" value="&amp;lt;get&amp;gt; -_id: int&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;lt;get&amp;gt; -_name: string&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="oJ9yVa5YV7pGG5SNaFQi-24">
+        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-25" value="&amp;lt;get&amp;gt; -_id: int&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;lt;get&amp;gt; -_name: string&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;get&amp;gt; -_chatSettings: string&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="oJ9yVa5YV7pGG5SNaFQi-24">
           <mxGeometry y="26" width="160" height="54" as="geometry" />
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=10;" vertex="1" parent="oJ9yVa5YV7pGG5SNaFQi-24">
@@ -208,7 +208,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-59" value="tbl_ChatUser" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="-640" width="160" height="108" as="geometry" />
+          <mxGeometry x="-300" y="-640" width="160" height="136" as="geometry" />
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-60" value="PK&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;user_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJ9yVa5YV7pGG5SNaFQi-59">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -218,6 +218,9 @@
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-105" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;mention_link: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJ9yVa5YV7pGG5SNaFQi-59">
           <mxGeometry y="80" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-107" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;notification_mute: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oJ9yVa5YV7pGG5SNaFQi-59">
+          <mxGeometry y="108" width="160" height="28" as="geometry" />
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-61" value="tbl_ChatUserRelation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="-680" width="160" height="108" as="geometry" />
@@ -311,6 +314,9 @@
           <mxGeometry x="0.8939" y="1" relative="1" as="geometry">
             <mxPoint x="-3" y="-18" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-108" value="_chatSettings is a json/xml config file fetched from database.&amp;nbsp;&lt;div&gt;Now it consists only of&lt;/div&gt;&lt;div&gt;&quot;Mute Notifications&quot;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="90" width="130" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
