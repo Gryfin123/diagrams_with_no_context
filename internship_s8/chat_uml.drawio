@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T11:13:08.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="hq0jaojHn7c1vjv_ujsh" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T11:14:31.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0jczlWPqgT0lSNoxs1-s" version="24.0.7" type="github">
   <diagram name="Pagina-1" id="_BIcd2fGNGywZXepcDtC">
     <mxGraphModel dx="1816" dy="1678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
           <mxGeometry y="98" width="160" height="92" as="geometry" />
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-10" value="SendStart-/SendStopWritingNotification always sends infromation about client in which app function is executed" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="364" y="460" width="256" height="100" as="geometry" />
+          <mxGeometry x="360" y="460" width="256" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
