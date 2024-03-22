@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T11:23:22.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ZRBzQ-gJYTJgzrfp0pfu" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T11:41:45.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="I40-AOa3rGi3KUgqGLrZ" version="24.0.7" type="github">
   <diagram name="Pagina-1" id="_BIcd2fGNGywZXepcDtC">
-    <mxGraphModel dx="3088" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1646" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,9 +24,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-48" value="&amp;nbsp;&amp;lt;uses&amp;gt;&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;verticalAlign=middle;" parent="1" source="UXujqqbUCY5wyIjqTFSq-18" target="oJ9yVa5YV7pGG5SNaFQi-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="8HCmsYnYacTSTwjRQxVs-7" value="&amp;lt;keeps open connection&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;fontSize=10;verticalAlign=middle;" parent="1" source="otVkLo7p5fC6BMHa_1EE-5" target="8HCmsYnYacTSTwjRQxVs-3" edge="1">
           <mxGeometry x="-0.5714" relative="1" as="geometry">
             <mxPoint as="offset" />
@@ -44,7 +41,7 @@
         <mxCell id="otVkLo7p5fC6BMHa_1EE-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=10;" parent="otVkLo7p5fC6BMHa_1EE-5" vertex="1">
           <mxGeometry y="50" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="otVkLo7p5fC6BMHa_1EE-8" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;+OpenConnection(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+CloseConnection(): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+FetchAssosiatedUsers(int: CurrUserId): ChatUser[]&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+FetchAssosiatedChatrooms(int: CurrUserId): Chatroom[]&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+RequestPastMessagesRequest(DateTime: startDate, int: amount, ChatRoom): void&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;+SendAddMessage(IMessage, Chatroom): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+SendRemoveMessage(I&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;Message, Chatroom&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+SendChatroomUpdate(Chatroom): void&lt;div style=&quot;font-size: 10px;&quot;&gt;+SendStartedWritingNotification(ChatUser, Chatroom): void&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;+SendStoppedWritingNotification(ChatUser, Chatroom): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+ReceivePastMessagesRequest(MessagesPayload[]): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;+ReceiveAddMessage(MessagePayload): void&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+ReceiveRemoveMessage(&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;MessagePayload&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+ReceiveChatroomUpdate(ChatPayload): void&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;+ReceiveStartedWritingNotification(ChatUser): void&lt;/div&gt;+ReceiveStoppedWritingNotification(ChatUser): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="otVkLo7p5fC6BMHa_1EE-5" vertex="1">
+        <mxCell id="otVkLo7p5fC6BMHa_1EE-8" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;+OpenConnection(): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+CloseConnection(): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+FetchAssosiatedUsers(int: currUserId): ChatUser[]&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+FetchAssosiatedChatrooms(int: currUserId): Chatroom[]&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+RequestPastMessagesRequest(DateTime: startDate, int: amount, ChatRoom): void&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;+SendAddMessage(IMessage, Chatroom): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+SendRemoveMessage(I&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;Message, Chatroom&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+SendChatroomUpdate(Chatroom): void&lt;div style=&quot;font-size: 10px;&quot;&gt;+SendStartedWritingNotification(ChatUser, Chatroom): void&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;+SendStoppedWritingNotification(ChatUser, Chatroom): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+ReceivePastMessagesRequest(MessagesPayload[]): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;+ReceiveAddMessage(MessagePayload): void&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+ReceiveRemoveMessage(&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;MessagePayload&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+ReceiveChatroomUpdate(ChatPayload): void&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;+ReceiveStartedWritingNotification(ChatUser): void&lt;/div&gt;+ReceiveStoppedWritingNotification(ChatUser): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="otVkLo7p5fC6BMHa_1EE-5" vertex="1">
           <mxGeometry y="58" width="320" height="272" as="geometry" />
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-1" value="&amp;lt;get&amp;gt; -messages[]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fontSize=10;verticalAlign=middle;" parent="1" source="otVkLo7p5fC6BMHa_1EE-9" target="oJ9yVa5YV7pGG5SNaFQi-46" edge="1">
@@ -53,8 +50,13 @@
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-2" value="&amp;nbsp;&amp;lt;get&amp;gt; -user[]&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fontSize=10;verticalAlign=middle;" parent="1" source="otVkLo7p5fC6BMHa_1EE-9" target="otVkLo7p5fC6BMHa_1EE-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-8" value="&amp;lt;get&amp;gt; -chatRoom" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;endFill=0;startArrow=open;startFill=0;verticalAlign=middle;" parent="1" source="otVkLo7p5fC6BMHa_1EE-9" target="UXujqqbUCY5wyIjqTFSq-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-8" value="&amp;lt;get&amp;gt; -_currChatRoom" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;endFill=0;startArrow=open;startFill=0;verticalAlign=middle;" parent="1" source="otVkLo7p5fC6BMHa_1EE-9" target="UXujqqbUCY5wyIjqTFSq-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-130" y="330" />
+              <mxPoint x="-130" y="330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="otVkLo7p5fC6BMHa_1EE-9" value="Chatroom" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-350" y="460" width="260" height="210" as="geometry" />
@@ -135,21 +137,6 @@
         </mxCell>
         <mxCell id="otVkLo7p5fC6BMHa_1EE-32" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="otVkLo7p5fC6BMHa_1EE-29" vertex="1">
           <mxGeometry y="108" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-24" value="ChatroomInitInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="-640" y="70" width="160" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-25" value="&amp;lt;get&amp;gt; -_id: int&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;lt;get&amp;gt; -_name: string&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&amp;lt;get&amp;gt; -_chatSettings: string&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="oJ9yVa5YV7pGG5SNaFQi-24" vertex="1">
-          <mxGeometry y="26" width="160" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=10;" parent="oJ9yVa5YV7pGG5SNaFQi-24" vertex="1">
-          <mxGeometry y="70" width="160" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-27" value="ChatroomInitInfo(int, string): __const" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="oJ9yVa5YV7pGG5SNaFQi-24" vertex="1">
-          <mxGeometry y="80" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-28" value="-_members[]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;fontSize=10;verticalAlign=middle;" parent="1" source="oJ9yVa5YV7pGG5SNaFQi-24" target="otVkLo7p5fC6BMHa_1EE-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-46" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;IMessage&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid; font-size: 10px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;+GetId(): string&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;+GetContent(): string&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;+GetSender(): ChatUser&lt;br style=&quot;font-size: 10px;&quot;&gt;+GetDate(): DateTime&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 10px;&quot;&gt;+GenerateShareLink(): string&lt;/p&gt;" style="verticalAlign=middle;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-300" y="806" width="160" height="120" as="geometry" />
@@ -446,23 +433,14 @@
         <mxCell id="UXujqqbUCY5wyIjqTFSq-2" value="The &quot;clob&quot; datatypes hold the XML code" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-210" y="-710" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="UXujqqbUCY5wyIjqTFSq-3" value="ChatUserList" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-960" y="480" width="180" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="UXujqqbUCY5wyIjqTFSq-4" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXujqqbUCY5wyIjqTFSq-3">
-          <mxGeometry y="26" width="180" height="74" as="geometry" />
-        </mxCell>
-        <mxCell id="UXujqqbUCY5wyIjqTFSq-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=10;" vertex="1" parent="UXujqqbUCY5wyIjqTFSq-3">
-          <mxGeometry y="100" width="180" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="UXujqqbUCY5wyIjqTFSq-6" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXujqqbUCY5wyIjqTFSq-3">
-          <mxGeometry y="108" width="180" height="62" as="geometry" />
-        </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-22" value="&amp;nbsp;-_chatController&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;verticalAlign=middle;endArrow=open;endFill=0;" edge="1" parent="1" source="UXujqqbUCY5wyIjqTFSq-18" target="otVkLo7p5fC6BMHa_1EE-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UXujqqbUCY5wyIjqTFSq-41" value="&amp;nbsp;-_allAssosiatedUsers[]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXujqqbUCY5wyIjqTFSq-18" target="otVkLo7p5fC6BMHa_1EE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-18" value="ChatController" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="40" width="320" height="170" as="geometry">
+          <mxGeometry x="-380" y="35" width="320" height="180" as="geometry">
             <mxRectangle x="60" y="30" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -472,8 +450,8 @@
         <mxCell id="UXujqqbUCY5wyIjqTFSq-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=10;" vertex="1" parent="UXujqqbUCY5wyIjqTFSq-18">
           <mxGeometry y="60" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="UXujqqbUCY5wyIjqTFSq-21" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ChatroomInit(ChatroomInitInfo): void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;+CheckSentMessage(IChatMessage): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+UpdateVisibleChat(): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXujqqbUCY5wyIjqTFSq-18">
-          <mxGeometry y="68" width="320" height="102" as="geometry" />
+        <mxCell id="UXujqqbUCY5wyIjqTFSq-21" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-LoadAssosiatedUsers(int: currUserId): void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-LoadAssosiatedChatrooms(int: currUserId): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;-LoadSelectedChat(ChatRoom): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+SendMessage(): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;-CheckSentMessage(IChatMessage): void&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;+UpdateVisibleChat(): void&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="UXujqqbUCY5wyIjqTFSq-18">
+          <mxGeometry y="68" width="320" height="112" as="geometry" />
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-23" value="Messages use GUID as identifier" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-400" y="876" width="100" height="50" as="geometry" />
@@ -485,7 +463,7 @@
           <mxGeometry x="-130" y="790" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-26" value="All dates will be saved as UTC" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="13" y="150" width="110" height="60" as="geometry" />
+          <mxGeometry x="-60" y="40" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-29" value="Load Messages assosiated with that chat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXujqqbUCY5wyIjqTFSq-27" target="UXujqqbUCY5wyIjqTFSq-28">
           <mxGeometry relative="1" as="geometry" />
@@ -510,6 +488,22 @@
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-36" value="&quot;Fetch-&quot; methods are supposed to be used to load all specific data, in contrast to &quot;Request-&quot; and &quot;Broadcast-&quot; methods." style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="508" y="-40" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UXujqqbUCY5wyIjqTFSq-42" value="Uses reference from:&lt;div&gt;&amp;lt;ChatController. _assosiatedUsers&amp;gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-463" y="580" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UXujqqbUCY5wyIjqTFSq-43" value="&amp;lt;get&amp;gt; -_assosiatedChats[]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;endFill=0;startArrow=open;startFill=0;verticalAlign=middle;" edge="1" parent="1" source="otVkLo7p5fC6BMHa_1EE-9" target="UXujqqbUCY5wyIjqTFSq-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="460" as="sourcePoint" />
+            <mxPoint x="-290" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-300" y="260" />
+              <mxPoint x="-300" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXujqqbUCY5wyIjqTFSq-44" value="Uses reference from:&lt;div&gt;&amp;lt;ChatController. _assosiatedChats&amp;gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="350" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
