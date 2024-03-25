@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T09:47:28.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5ZMRX5mnQoEHuEehTH2R" version="24.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T10:42:00.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7wHENuEeeZQmoGM__fT6" version="24.0.8" type="github">
   <diagram name="Pagina-1" id="_BIcd2fGNGywZXepcDtC">
-    <mxGraphModel dx="2514" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -247,7 +247,7 @@
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-72" value="PK&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;message_id: string&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="oJ9yVa5YV7pGG5SNaFQi-71" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-76" value="PK&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;chat_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="oJ9yVa5YV7pGG5SNaFQi-71" vertex="1">
+        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-76" value="FK&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;chat_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="oJ9yVa5YV7pGG5SNaFQi-71" vertex="1">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-77" value="FK&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;sender_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="oJ9yVa5YV7pGG5SNaFQi-71" vertex="1">
@@ -295,9 +295,6 @@
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-108" value="_chatSettings is a json/xml config file fetched from database.&amp;nbsp;&lt;div style=&quot;font-size: 10px;&quot;&gt;Now it consists only of&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&quot;Mute Notifications&quot;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="58" width="130" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="8HCmsYnYacTSTwjRQxVs-1" value="Messages use GUID as identifier" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="806" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8HCmsYnYacTSTwjRQxVs-2" value="Messages use GUID as identifier" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="90" y="-675" width="100" height="45" as="geometry" />
@@ -349,7 +346,7 @@
           <mxGeometry x="-440" y="-870" width="130" height="58" as="geometry" />
         </mxCell>
         <mxCell id="8HCmsYnYacTSTwjRQxVs-20" value="Remove Chat sets Expired on chat, connected users and connected messages" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="8" y="-375" width="120" height="60" as="geometry" />
+          <mxGeometry y="-375" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8HCmsYnYacTSTwjRQxVs-23" value="&quot;Expired&quot; means that only admins are able to see these rows" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="140" y="-980" width="110" height="60" as="geometry" />
@@ -455,7 +452,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8HCmsYnYacTSTwjRQxVs-63" value="Return value of &quot;create&quot; functions is the id" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="8" y="-450" width="120" height="40" as="geometry" />
+          <mxGeometry y="-450" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-2" value="The &quot;clob&quot; datatypes hold the XML code" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-210" y="-710" width="120" height="70" as="geometry" />
