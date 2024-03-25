@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T10:42:00.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7wHENuEeeZQmoGM__fT6" version="24.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T11:36:05.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="RhP3-UUg-cuIVHrjaroa" version="24.0.8" type="github">
   <diagram name="Pagina-1" id="_BIcd2fGNGywZXepcDtC">
     <mxGraphModel dx="2022" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
           <mxGeometry y="108" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-46" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;i style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;IMessage&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid; font-size: 10px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;+GetId(): string&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;+GetContent(): XElement&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;+GetSender(): ChatUser&lt;br style=&quot;font-size: 10px;&quot;&gt;+GetDate(): DateTime&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 10px;&quot;&gt;+GenerateShareLink(): string&lt;/p&gt;" style="verticalAlign=middle;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="806" width="160" height="120" as="geometry" />
+          <mxGeometry x="-300" y="800" width="160" height="126" as="geometry" />
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-55" value="tbl_Chatroom" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="260" y="-920" width="140" height="112" as="geometry" />
@@ -478,13 +478,13 @@
           <mxGeometry y="68" width="320" height="112" as="geometry" />
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-23" value="Messages use GUID as identifier" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="876" width="100" height="50" as="geometry" />
+          <mxGeometry x="-410" y="876" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-24" value="Äll dates will be saved as UTC" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="100" y="-820" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-25" value="All dates will be saved as UTC" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="790" width="110" height="60" as="geometry" />
+          <mxGeometry x="-130" y="800" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-26" value="All dates will be saved as UTC" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry y="-70" width="110" height="60" as="geometry" />
