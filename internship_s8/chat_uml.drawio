@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T11:36:05.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="RhP3-UUg-cuIVHrjaroa" version="24.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T10:33:06.808Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="_G06NLOn_BDwB45jjb1r" version="24.2.2" type="github">
   <diagram name="Pagina-1" id="_BIcd2fGNGywZXepcDtC">
-    <mxGraphModel dx="2022" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="1741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -360,7 +360,7 @@
         <mxCell id="8HCmsYnYacTSTwjRQxVs-27" value="ChatroomPayload" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="750" y="326" width="160" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="8HCmsYnYacTSTwjRQxVs-28" value="&amp;lt;get&amp;gt; +_chatId: int&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;lt;get&amp;gt; +_chatName: int&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;lt;get&amp;gt; +_userId: int[]&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;lt;get&amp;gt; +_userName: string[]&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="8HCmsYnYacTSTwjRQxVs-27" vertex="1">
+        <mxCell id="8HCmsYnYacTSTwjRQxVs-28" value="&amp;lt;get&amp;gt; +_chatId: int&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;lt;get&amp;gt; +_chatName: int&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;lt;get&amp;gt; +_userId: int[]&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="8HCmsYnYacTSTwjRQxVs-27" vertex="1">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
         </mxCell>
         <mxCell id="8HCmsYnYacTSTwjRQxVs-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=10;" parent="8HCmsYnYacTSTwjRQxVs-27" vertex="1">
@@ -508,7 +508,7 @@
         <mxCell id="UXujqqbUCY5wyIjqTFSq-44" value="Uses reference from:&lt;div&gt;&amp;lt;ChatController. _assosiatedChats&amp;gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-120" y="350" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iahpUmBSb81DwhvFldjH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;verticalAlign=middle;" edge="1" parent="1" source="otVkLo7p5fC6BMHa_1EE-8" target="oJ9yVa5YV7pGG5SNaFQi-46">
+        <mxCell id="iahpUmBSb81DwhvFldjH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;verticalAlign=middle;" parent="1" source="otVkLo7p5fC6BMHa_1EE-8" target="oJ9yVa5YV7pGG5SNaFQi-46" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="442" y="856" />
@@ -517,7 +517,7 @@
             <mxPoint x="532" y="856" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iahpUmBSb81DwhvFldjH-2" value="&amp;nbsp;&amp;lt;uses&amp;gt;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="iahpUmBSb81DwhvFldjH-1">
+        <mxCell id="iahpUmBSb81DwhvFldjH-2" value="&amp;nbsp;&amp;lt;uses&amp;gt;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" parent="iahpUmBSb81DwhvFldjH-1" vertex="1" connectable="0">
           <mxGeometry x="-0.6963" y="-1" relative="1" as="geometry">
             <mxPoint x="-1" y="-134" as="offset" />
           </mxGeometry>
