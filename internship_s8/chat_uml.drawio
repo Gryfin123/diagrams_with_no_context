@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T12:42:19.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="VEZJ2Ko6JN_C7v0jLCKC" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T12:42:33.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="TCrm3j8xhYA3lQHw20M_" version="24.2.2" type="github">
   <diagram name="Pagina-1" id="_BIcd2fGNGywZXepcDtC">
     <mxGraphModel dx="1609" dy="1741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,7 +295,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oJ9yVa5YV7pGG5SNaFQi-108" value="_chatSettings is a json/xml config file fetched from database.&amp;nbsp;&lt;div style=&quot;font-size: 10px;&quot;&gt;Now it consists only of&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&quot;Mute Notifications&quot;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="58" width="130" height="100" as="geometry" />
+          <mxGeometry x="50" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8HCmsYnYacTSTwjRQxVs-2" value="Messages use GUID as identifier" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="90" y="-675" width="100" height="45" as="geometry" />
