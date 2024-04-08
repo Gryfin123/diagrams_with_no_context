@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T10:33:06.808Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="_G06NLOn_BDwB45jjb1r" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T12:42:19.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="VEZJ2Ko6JN_C7v0jLCKC" version="24.2.2" type="github">
   <diagram name="Pagina-1" id="_BIcd2fGNGywZXepcDtC">
     <mxGraphModel dx="1609" dy="1741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -180,11 +180,12 @@
         <mxCell id="8HCmsYnYacTSTwjRQxVs-21" value="&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt;&#x9;&lt;/span&gt;deleted: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;" parent="oJ9yVa5YV7pGG5SNaFQi-55" vertex="1">
           <mxGeometry y="86" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;spacing=0;fontSize=10;verticalAlign=middle;" parent="1" source="oJ9yVa5YV7pGG5SNaFQi-59" target="oJ9yVa5YV7pGG5SNaFQi-77" edge="1">
+        <mxCell id="oJ9yVa5YV7pGG5SNaFQi-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;spacing=0;fontSize=10;verticalAlign=middle;" parent="1" source="oJ9yVa5YV7pGG5SNaFQi-60" target="oJ9yVa5YV7pGG5SNaFQi-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="-780" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-210" y="-719" />
+              <mxPoint x="-360" y="-877" />
+              <mxPoint x="-360" y="-719" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -343,7 +344,7 @@
           <mxGeometry x="-610" y="-590" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8HCmsYnYacTSTwjRQxVs-18" value="general_chat_config is a row of bits that define general seetings.&amp;nbsp;&lt;br style=&quot;font-size: 10px;&quot;&gt;(Like &quot;Mute Notifications)" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="-870" width="130" height="58" as="geometry" />
+          <mxGeometry x="-310" y="-804" width="130" height="58" as="geometry" />
         </mxCell>
         <mxCell id="8HCmsYnYacTSTwjRQxVs-20" value="Remove Chat sets Expired on chat, connected users and connected messages" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry y="-375" width="120" height="60" as="geometry" />
@@ -480,7 +481,7 @@
         <mxCell id="UXujqqbUCY5wyIjqTFSq-23" value="Messages use GUID as identifier" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-410" y="876" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UXujqqbUCY5wyIjqTFSq-24" value="Äll dates will be saved as UTC" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="UXujqqbUCY5wyIjqTFSq-24" value="All dates will be saved as UTC" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="100" y="-820" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-25" value="All dates will be saved as UTC" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
