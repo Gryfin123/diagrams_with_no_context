@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T12:42:33.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="TCrm3j8xhYA3lQHw20M_" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T12:42:45.140Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="w6GF9YfIB4DJMtYH0Rb9" version="24.2.2" type="github">
   <diagram name="Pagina-1" id="_BIcd2fGNGywZXepcDtC">
     <mxGraphModel dx="1609" dy="1741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -353,7 +353,7 @@
           <mxGeometry x="140" y="-980" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8HCmsYnYacTSTwjRQxVs-25" value="&quot; *ChatroomUpdate&quot; encapsulates updates like adjusted user list, chatroom name change" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="508" y="140" width="130" height="61" as="geometry" />
+          <mxGeometry x="520" y="140" width="130" height="61" as="geometry" />
         </mxCell>
         <mxCell id="8HCmsYnYacTSTwjRQxVs-26" value="XML that delivers latest chat status.&lt;br style=&quot;font-size: 10px;&quot;&gt;(Like name or list of users)" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="910" y="326" width="100" height="60" as="geometry" />
@@ -491,7 +491,7 @@
           <mxGeometry y="-70" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-36" value="&quot;Fetch-&quot; methods are supposed to be used to load all specific data, in contrast to &quot;Request-&quot; and &quot;Broadcast-&quot; methods." style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="508" y="-40" width="130" height="100" as="geometry" />
+          <mxGeometry x="520" y="-40" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="UXujqqbUCY5wyIjqTFSq-42" value="Uses reference from:&lt;div&gt;&amp;lt;ChatController. _assosiatedUsers&amp;gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-463" y="580" width="100" height="70" as="geometry" />
