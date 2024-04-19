@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T14:16:32.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="YjAZ_3yEKahiAlB-FH4d" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T14:20:51.004Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="RpReWVpQH1ERuCYy42Lb" version="24.2.5" type="github">
   <diagram name="Pagina-1" id="Bf5yMXi9IIL7gLmAusMt">
     <mxGraphModel dx="1195" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
         <mxCell id="c2Gna05p8QOXd9XZKlMe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-11" target="c2Gna05p8QOXd9XZKlMe-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c2Gna05p8QOXd9XZKlMe-11" value="Add message to the list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-11" value="Add message to the list and update timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c2Gna05p8QOXd9XZKlMe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-12" target="c2Gna05p8QOXd9XZKlMe-13">
@@ -64,7 +64,7 @@
         <mxCell id="c2Gna05p8QOXd9XZKlMe-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-13" target="c2Gna05p8QOXd9XZKlMe-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c2Gna05p8QOXd9XZKlMe-13" value="Provide a timestamp, that defines when the new messages were was last time fetched" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-13" value="Provide a timestamp, that defines the last fetch for new messages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c2Gna05p8QOXd9XZKlMe-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-14" target="c2Gna05p8QOXd9XZKlMe-15">
