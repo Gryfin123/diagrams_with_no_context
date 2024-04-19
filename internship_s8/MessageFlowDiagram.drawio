@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T11:51:32.103Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.5" etag="FJJC9tTDJSEFJdyxCoDJ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T12:18:01.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="PKpA8_pmrBws4T8Rb3pP" version="24.2.5" type="github">
   <diagram name="Pagina-1" id="Bf5yMXi9IIL7gLmAusMt">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-2" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-3" value="Server" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-4" value="Client 2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-7" target="c2Gna05p8QOXd9XZKlMe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-7" value="Sends Mesasge" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-8" target="c2Gna05p8QOXd9XZKlMe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-8" target="c2Gna05p8QOXd9XZKlMe-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-8" value="Saves message, define timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-9" target="c2Gna05p8QOXd9XZKlMe-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-9" value="Notification about ne messages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-10" target="c2Gna05p8QOXd9XZKlMe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-10" value="Notification about successful save and a timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-11" value="Add message to the list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-12" target="c2Gna05p8QOXd9XZKlMe-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-12" value="Request latest messages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-13" target="c2Gna05p8QOXd9XZKlMe-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-13" value="Provide a timestamp, that defines when there was last time new messages were searched" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-14" target="c2Gna05p8QOXd9XZKlMe-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-14" value="Find messages from that timestamp and make a list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-15" target="c2Gna05p8QOXd9XZKlMe-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-15" value="return the list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-16" value="Where there will be time set to UTC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-17" value="Update the timestamp of last check, to the time when the check was triggered, not the response received." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
