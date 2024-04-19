@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T12:18:01.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="PKpA8_pmrBws4T8Rb3pP" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T14:16:32.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="YjAZ_3yEKahiAlB-FH4d" version="24.2.5" type="github">
   <diagram name="Pagina-1" id="Bf5yMXi9IIL7gLmAusMt">
-    <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="420" y="60" width="160" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="160" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-33" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="160" height="800" as="geometry" />
+        </mxCell>
         <mxCell id="c2Gna05p8QOXd9XZKlMe-2" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="80" width="40" height="70" as="geometry" />
         </mxCell>
@@ -40,6 +49,9 @@
         <mxCell id="c2Gna05p8QOXd9XZKlMe-10" value="Notification about successful save and a timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-11" target="c2Gna05p8QOXd9XZKlMe-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c2Gna05p8QOXd9XZKlMe-11" value="Add message to the list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="440" width="120" height="60" as="geometry" />
         </mxCell>
@@ -52,7 +64,7 @@
         <mxCell id="c2Gna05p8QOXd9XZKlMe-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-13" target="c2Gna05p8QOXd9XZKlMe-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c2Gna05p8QOXd9XZKlMe-13" value="Provide a timestamp, that defines when there was last time new messages were searched" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-13" value="Provide a timestamp, that defines when the new messages were was last time fetched" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c2Gna05p8QOXd9XZKlMe-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c2Gna05p8QOXd9XZKlMe-14" target="c2Gna05p8QOXd9XZKlMe-15">
@@ -67,11 +79,14 @@
         <mxCell id="c2Gna05p8QOXd9XZKlMe-15" value="return the list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="c2Gna05p8QOXd9XZKlMe-16" value="Where there will be time set to UTC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="c2Gna05p8QOXd9XZKlMe-17" value="Update the timestamp of last check, to the time when the check was triggered, not the response received." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-29" value="Time is defined in UTC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2Gna05p8QOXd9XZKlMe-31" value="Before presentation change the time to local" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
