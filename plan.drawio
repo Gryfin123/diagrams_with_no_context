@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-01T15:57:30.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="4VqhkF_MVodNXP6jWeyf" version="22.1.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-01T15:59:53.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="R3J8MYbfdAYnm1OnAAP-" version="22.1.13" type="github">
   <diagram name="Page-1" id="jO8U_TxOKtu35358IPTG">
     <mxGraphModel dx="2336" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-41" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Ukryta jaskinia&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="920" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="880" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-43" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Zablokowwany tunel,&lt;br&gt;Przeszedł nim pielgrzym&lt;br&gt;(Niezbadane)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="1111" y="440" width="130" height="60" as="geometry" />
@@ -139,10 +139,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-45" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;u&gt;Niestabilny &lt;/u&gt;most nad przepaścią&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="750" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-47" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Rozpadlina pod mostem&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="750" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="524" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-70" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="660" width="260" height="80" as="geometry" />
