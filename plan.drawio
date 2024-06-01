@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-06-01T12:06:41.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="gapwL5AgA-pf1kxXBSVC" version="22.1.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-01T12:18:24.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="2Z7rzg4yo4BjoKvC9z3_" version="22.1.13" type="github">
   <diagram name="Page-1" id="jO8U_TxOKtu35358IPTG">
-    <mxGraphModel dx="2336" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3033" dy="1086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="beuTjJRbkT3ywZGF47F_-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="585" width="290" height="220" as="geometry" />
+          <mxGeometry x="1100" y="585" width="280" height="220" as="geometry" />
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="-80" width="1160" height="1000" as="geometry" />
+          <mxGeometry x="-80" y="30" width="1160" height="890" as="geometry" />
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;curved=0;strokeColor=#FCFC21;strokeWidth=5;" edge="1" parent="1" source="beuTjJRbkT3ywZGF47F_-1" target="beuTjJRbkT3ywZGF47F_-2">
           <mxGeometry relative="1" as="geometry" />
@@ -78,7 +78,7 @@
           <mxGeometry x="610" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-24" value="Spadek w nieznane&lt;br&gt;(Niezbadane)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="740" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-32" style="edgeStyle=none;shape=connector;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="beuTjJRbkT3ywZGF47F_-28" target="beuTjJRbkT3ywZGF47F_-31">
           <mxGeometry relative="1" as="geometry" />
@@ -93,17 +93,10 @@
           <mxGeometry x="540" y="60" width="980" height="790" as="geometry" />
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-31" value="*Czaszka*&lt;br&gt;(Niezbadane)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="665" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="beuTjJRbkT3ywZGF47F_-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 42px;&quot;&gt;Północ&lt;/font&gt;&lt;/b&gt;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;curved=0;endWidth=55.78947368421053;endSize=31.50526315789474;width=112.63157894736842;strokeWidth=7;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
-          <mxGeometry x="-0.0909" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1710" y="974.09" as="sourcePoint" />
-            <mxPoint x="1380" y="974.09" as="targetPoint" />
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
+          <mxGeometry x="1390" y="665" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-36" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Antymagiczna, Nieruchoma&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;strokeWidth=4;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="-80" width="370" height="60" as="geometry" />
+          <mxGeometry x="-80" y="30" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="beuTjJRbkT3ywZGF47F_-40" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Antymagiczna, rozwiewana przez wiatr, rozwiewana od hałasu.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;strokeWidth=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="585" width="250" height="60" as="geometry" />
@@ -135,17 +128,17 @@
         <mxCell id="beuTjJRbkT3ywZGF47F_-47" value="Rozpadlina pod mostem" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="840" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="beuTjJRbkT3ywZGF47F_-53" value="Legenda" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="360" width="140" height="120" as="geometry" />
+        <mxCell id="beuTjJRbkT3ywZGF47F_-53" value="Legenda" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="780" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="beuTjJRbkT3ywZGF47F_-54" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="beuTjJRbkT3ywZGF47F_-53">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        <mxCell id="beuTjJRbkT3ywZGF47F_-54" value="Żółte Linie - Ścieżka Oznaczona Flagami i opisane" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="beuTjJRbkT3ywZGF47F_-53">
+          <mxGeometry y="30" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="beuTjJRbkT3ywZGF47F_-55" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="beuTjJRbkT3ywZGF47F_-53">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="beuTjJRbkT3ywZGF47F_-55" value="Czerwone Linie - Bieg bez uwagi na drogę." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="beuTjJRbkT3ywZGF47F_-53">
+          <mxGeometry y="80" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="beuTjJRbkT3ywZGF47F_-56" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="beuTjJRbkT3ywZGF47F_-53">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        <mxCell id="beuTjJRbkT3ywZGF47F_-56" value="Czarne Linie - Ścieżki opisane prze En" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="beuTjJRbkT3ywZGF47F_-53">
+          <mxGeometry y="110" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
