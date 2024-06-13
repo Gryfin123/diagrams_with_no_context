@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T11:54:28.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="zlqDhjs5EpHC_DuP0606" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T12:09:51.992Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="PyBuWUZ8ZfHkr23MKTK9" version="24.5.4" type="github">
   <diagram name="Pagina-1" id="2xL5hSOCkPQhhSe2iLA3">
     <mxGraphModel dx="2261" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
         <mxCell id="g44KLaVrJFj6UJTE19Py-87" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g44KLaVrJFj6UJTE19Py-83" target="g44KLaVrJFj6UJTE19Py-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g44KLaVrJFj6UJTE19Py-83" value="Receive confirmation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="g44KLaVrJFj6UJTE19Py-83" value="Receive confirmation of adding message to database" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w2O6twyUIYEGP7XgG6UN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g44KLaVrJFj6UJTE19Py-84" target="w2O6twyUIYEGP7XgG6UN-2">
@@ -208,7 +208,7 @@
         <mxCell id="w2O6twyUIYEGP7XgG6UN-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2O6twyUIYEGP7XgG6UN-6" target="w2O6twyUIYEGP7XgG6UN-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w2O6twyUIYEGP7XgG6UN-6" value="Find new messages and end them back" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="w2O6twyUIYEGP7XgG6UN-6" value="Find new messages and send them back" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w2O6twyUIYEGP7XgG6UN-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2O6twyUIYEGP7XgG6UN-9" target="w2O6twyUIYEGP7XgG6UN-12">
