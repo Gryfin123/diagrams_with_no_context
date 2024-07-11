@@ -1,9 +1,290 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T09:51:00.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" version="24.4.13" etag="wWdW2cSJRndTc5j2eMGD" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-11T10:46:41.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="VWERhN6zZTIhTEjpgY-9" version="24.4.13" type="github">
   <diagram name="Page-1" id="xZSUqLC1O5UInKG4f6U1">
-    <mxGraphModel>
+    <mxGraphModel dx="2537" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-52" value="Główny Budynek" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=140;height=30;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="800" width="1160" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-50" value="Trzecie Dormitorium" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=140;height=30;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="280" width="520" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-51" value="Akademia" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=140;height=30;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="80" width="1210" height="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-2" value="&lt;div&gt;Sala z korytarzem&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-3" value="&lt;div&gt;Łaźnia&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-4" value="Kuchnia i spiżarnia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-5" value="Składzik" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-4" target="KIGXmuSeuvGsJTqi7eUY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="280" as="sourcePoint" />
+            <mxPoint x="120" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-2" target="KIGXmuSeuvGsJTqi7eUY-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="360" as="sourcePoint" />
+            <mxPoint x="170" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-5" target="KIGXmuSeuvGsJTqi7eUY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="370" as="sourcePoint" />
+            <mxPoint x="180" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-10" value="Pierwsze Pietro" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-11" value="Drugie Pietro" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-12" value="Pokoje chłopców i &lt;b&gt;Mężczyzn&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-13" value="Pokoje dziewcząt i &lt;b&gt;Kobiet&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-10" target="KIGXmuSeuvGsJTqi7eUY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="520" as="sourcePoint" />
+            <mxPoint x="110" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-12" target="KIGXmuSeuvGsJTqi7eUY-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="530" as="sourcePoint" />
+            <mxPoint x="120" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-11" target="KIGXmuSeuvGsJTqi7eUY-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="540" as="sourcePoint" />
+            <mxPoint x="130" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-13" target="KIGXmuSeuvGsJTqi7eUY-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="550" as="sourcePoint" />
+            <mxPoint x="140" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-19" value="Dziedziniec" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-19" target="KIGXmuSeuvGsJTqi7eUY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="280" as="sourcePoint" />
+            <mxPoint x="850" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="200" />
+              <mxPoint x="520" y="200" />
+              <mxPoint x="360" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-22" value="Gimnazjum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-23" value="Staw i Ogrody" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-24" value="Warsztaty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-25" value="Budynek Unii Studenckiej" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-26" value="Biblioteka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-27" value="Główny Budynek" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-28" value="Audytorium" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-29" value="Dormitorium A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-30" value="Dormitorium B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-31" value="North Ward" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="550" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-34" value="Stary Budynek" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-35" value="Pole Akademii" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-31" target="KIGXmuSeuvGsJTqi7eUY-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="sourcePoint" />
+            <mxPoint x="290" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-37" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-19" target="KIGXmuSeuvGsJTqi7eUY-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="sourcePoint" />
+            <mxPoint x="290" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-38" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-19" target="KIGXmuSeuvGsJTqi7eUY-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="464" as="sourcePoint" />
+            <mxPoint x="690" y="496" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-39" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-19" target="KIGXmuSeuvGsJTqi7eUY-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="474" as="sourcePoint" />
+            <mxPoint x="700" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-41" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-19" target="KIGXmuSeuvGsJTqi7eUY-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="494" as="sourcePoint" />
+            <mxPoint x="720" y="526" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-42" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-26" target="KIGXmuSeuvGsJTqi7eUY-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="504" as="sourcePoint" />
+            <mxPoint x="730" y="536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-43" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-25" target="KIGXmuSeuvGsJTqi7eUY-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="514" as="sourcePoint" />
+            <mxPoint x="740" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-24" target="KIGXmuSeuvGsJTqi7eUY-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="524" as="sourcePoint" />
+            <mxPoint x="750" y="556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-23" target="KIGXmuSeuvGsJTqi7eUY-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="534" as="sourcePoint" />
+            <mxPoint x="760" y="566" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-22" target="KIGXmuSeuvGsJTqi7eUY-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="544" as="sourcePoint" />
+            <mxPoint x="770" y="576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-47" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-27" target="KIGXmuSeuvGsJTqi7eUY-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="554" as="sourcePoint" />
+            <mxPoint x="780" y="586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-48" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KIGXmuSeuvGsJTqi7eUY-28" target="KIGXmuSeuvGsJTqi7eUY-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="564" as="sourcePoint" />
+            <mxPoint x="790" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-54" value="Parter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-55" value="Piętro" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-56" value="Dach" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-57" value="Klasy, rok 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-58" value="Ambulatorium" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-59" value="Pokój instruktorski" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-60" value="Biuro Dyrektora" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-61" value="Sala Konferencyjna" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-62" value="Pokój Woźnych" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-63" value="Klasy, rok 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-64" value="Loża" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-65" value="Klub Muzyczny" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-66" value="Klub Artystyczny" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-67" value="Klub Kucharski" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-69" value="Cafeteria" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-70" value="Sklep" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-71" value="Klub Literacki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-72" value="Klub Dziennikarski" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-73" value="Klub Szachowy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-74" value="Klub Okultystyczny" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-75" value="Biuro Rady Uczniowskiej" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-76" value="Klub Wędkarski" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-77" value="Klub Szermierski" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-78" value="Klub Jeździecki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-79" value="Klub Pływacki" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-80" value="Szatnie i Basen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-82" value="Stajnia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIGXmuSeuvGsJTqi7eUY-83" value="&lt;div&gt;Składzik&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
