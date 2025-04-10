@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.9">
   <diagram name="Page-1" id="Q0dL1nY2zGRgUgsLCBUa">
-    <mxGraphModel dx="2890" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3485" dy="2049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,7 +23,7 @@
           <mxGeometry y="86" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gMu1ORTqsSVO2KnYUncU-6" value="&lt;div&gt;TemporaryEffects&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="681" width="160" height="86" as="geometry" />
+          <mxGeometry x="600" y="681" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="gMu1ORTqsSVO2KnYUncU-7" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="gMu1ORTqsSVO2KnYUncU-6" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -61,7 +61,7 @@
           <mxGeometry y="112" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gMu1ORTqsSVO2KnYUncU-14" value="I didn&#39;t save 3 hours of diagrams! &lt;br&gt;Save stuff!" style="html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=4;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="10" y="10" width="160" height="80" as="geometry" />
+          <mxGeometry x="120" y="-40" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gMu1ORTqsSVO2KnYUncU-15" target="gMu1ORTqsSVO2KnYUncU-31">
           <mxGeometry relative="1" as="geometry" />
@@ -170,7 +170,7 @@
           <mxGeometry y="56" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gMu1ORTqsSVO2KnYUncU-43" value="Keeps note on all effect relevant to current execution" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="800" y="681" width="120" height="50" as="geometry" />
+          <mxGeometry x="760" y="681" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gMu1ORTqsSVO2KnYUncU-44" value="Keeps note on all effect relevant to current run" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-960" y="240" width="120" height="50" as="geometry" />
@@ -299,13 +299,13 @@
         <mxCell id="DHiXAqFISTobGFmNKXlk-40" value="RunController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-300" y="240" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="DHiXAqFISTobGFmNKXlk-41" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DHiXAqFISTobGFmNKXlk-40" vertex="1">
+        <mxCell id="DHiXAqFISTobGFmNKXlk-41" value="+ ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DHiXAqFISTobGFmNKXlk-40" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DHiXAqFISTobGFmNKXlk-42" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="DHiXAqFISTobGFmNKXlk-40" vertex="1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DHiXAqFISTobGFmNKXlk-43" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DHiXAqFISTobGFmNKXlk-40" vertex="1">
+        <mxCell id="DHiXAqFISTobGFmNKXlk-43" value="+ ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DHiXAqFISTobGFmNKXlk-40" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZTXEeFlOowGVAZcSI6sb-10" target="gMu1ORTqsSVO2KnYUncU-15">
@@ -314,13 +314,13 @@
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-10" value="MapController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-40" y="238" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="ZTXEeFlOowGVAZcSI6sb-11" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-10">
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-11" value="+ ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-10">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-10">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZTXEeFlOowGVAZcSI6sb-13" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-10">
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-13" value="+ ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-10">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gMu1ORTqsSVO2KnYUncU-32" target="DHiXAqFISTobGFmNKXlk-29">
@@ -419,6 +419,33 @@
         </mxCell>
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-85" value="+ ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-82">
           <mxGeometry y="56" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-100" value="Prototype Execution Queue" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;gradientColor=none;swimlaneFillColor=none;fillStyle=auto;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-40" width="140" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-101" value="... - Deal 5 Phs. Damage" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-100">
+          <mxGeometry y="40" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-102" value="... - Deal 5 Phs. Damage" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-100">
+          <mxGeometry y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-105" value="... - Next Command Triggers Twice" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-100">
+          <mxGeometry y="130" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-106" value="FlameThrower - Deal 3 Fire Damage for each FlameThrower Triggered." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-100">
+          <mxGeometry y="180" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-107" value="Egg - Each time adjecent Fire Command is used, has a chance to hatch." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-100">
+          <mxGeometry y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-109" value="FlameThrower - Deal 3 Fire Damage for each FlameThrower Triggered." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-100">
+          <mxGeometry y="330" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-108" value="Deal 3 Fire damage for each fuel left." style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-100">
+          <mxGeometry y="410" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-110" value="Commands can add specific effect, to track numbers. Effect should be singleton, for example ScriptableObjects." style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="1290" width="150" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
