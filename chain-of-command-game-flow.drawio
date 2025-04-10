@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.9">
   <diagram name="Page-1" id="Q0dL1nY2zGRgUgsLCBUa">
-    <mxGraphModel dx="3485" dy="2049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2942" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,10 @@
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-93" value="+RemoveCommand(command): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gMu1ORTqsSVO2KnYUncU-19">
           <mxGeometry y="112" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZTXEeFlOowGVAZcSI6sb-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gMu1ORTqsSVO2KnYUncU-31" target="DHiXAqFISTobGFmNKXlk-9">
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-27" value="+damageType" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gMu1ORTqsSVO2KnYUncU-31" target="DHiXAqFISTobGFmNKXlk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-120" value="+resistances[]" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gMu1ORTqsSVO2KnYUncU-31" target="ZTXEeFlOowGVAZcSI6sb-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gMu1ORTqsSVO2KnYUncU-31" value="&lt;i&gt;Opponent&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -208,7 +211,7 @@
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DHiXAqFISTobGFmNKXlk-9" value="«enumeration»&lt;br&gt;&lt;b&gt;DAMAGE_TYPE&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="820" width="120" height="118" as="geometry" />
+          <mxGeometry x="-40" y="681" width="120" height="118" as="geometry" />
         </mxCell>
         <mxCell id="DHiXAqFISTobGFmNKXlk-10" value="FIRE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DHiXAqFISTobGFmNKXlk-9" vertex="1">
           <mxGeometry y="40" width="120" height="26" as="geometry" />
@@ -259,7 +262,7 @@
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DHiXAqFISTobGFmNKXlk-29" value="Detriments" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="820" width="160" height="86" as="geometry" />
+          <mxGeometry x="400" y="800" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="DHiXAqFISTobGFmNKXlk-30" value="&lt;div&gt;+&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DHiXAqFISTobGFmNKXlk-29" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -374,7 +377,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-48" value="(Specific Detriment)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="820" width="160" height="86" as="geometry" />
+          <mxGeometry x="600" y="800" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-49" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-48">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -460,6 +463,27 @@
         </mxCell>
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-114" value="When moving, check commands, to remove from place of origin." style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-910" y="780" width="140" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-121" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZTXEeFlOowGVAZcSI6sb-116" target="DHiXAqFISTobGFmNKXlk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-116" value="Resistances" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="840" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-117" value="&lt;div&gt;+flatResistance: float&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-116">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-122" value="&lt;div&gt;+prcResistance: float&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-116">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-118" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-116">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-119" value="+..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZTXEeFlOowGVAZcSI6sb-116">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-123" value="0 - 100" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="894" width="50" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
