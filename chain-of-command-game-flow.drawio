@@ -63,7 +63,7 @@
         <mxCell id="gMu1ORTqsSVO2KnYUncU-14" value="I didn&#39;t save 3 hours of diagrams! &lt;br&gt;Save stuff!" style="html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=4;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="120" y="-40" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZTXEeFlOowGVAZcSI6sb-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gMu1ORTqsSVO2KnYUncU-15" target="gMu1ORTqsSVO2KnYUncU-31">
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-9" value="+Opponent" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gMu1ORTqsSVO2KnYUncU-15" target="gMu1ORTqsSVO2KnYUncU-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-29" value="Generates to find outcome " style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gMu1ORTqsSVO2KnYUncU-15" target="gMu1ORTqsSVO2KnYUncU-2">
@@ -133,7 +133,12 @@
         <mxCell id="ZTXEeFlOowGVAZcSI6sb-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gMu1ORTqsSVO2KnYUncU-35" target="gMu1ORTqsSVO2KnYUncU-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZTXEeFlOowGVAZcSI6sb-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gMu1ORTqsSVO2KnYUncU-35" target="gMu1ORTqsSVO2KnYUncU-10">
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-115" value="+Storage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZTXEeFlOowGVAZcSI6sb-23">
+          <mxGeometry x="-0.3407" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZTXEeFlOowGVAZcSI6sb-24" value="+Storage" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gMu1ORTqsSVO2KnYUncU-35" target="gMu1ORTqsSVO2KnYUncU-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gMu1ORTqsSVO2KnYUncU-35" value="&lt;div&gt;Player&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
